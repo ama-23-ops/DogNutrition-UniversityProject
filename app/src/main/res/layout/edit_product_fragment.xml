@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText for Product Name -->
+    <EditText
+        android:id="@+id/etProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Name"
+        android:textSize="16sp"/>
+
+    <!-- EditText for Product Description -->
+    <EditText
+        android:id="@+id/etProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Description"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- EditText for Product Price -->
+    <EditText
+        android:id="@+id/etProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Price"
+        android:inputType="numberDecimal"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- EditText for Product Rating -->
+    <EditText
+        android:id="@+id/etProductRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Rating (1-5)"
+        android:inputType="numberDecimal"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Button to Save Changes -->
+    <Button
+        android:id="@+id/btnSaveChanges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Changes"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
