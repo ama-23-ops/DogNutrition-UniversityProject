@@ -50,6 +50,7 @@ The Dog Nutrition App empowers dog owners to make informed decisions about their
 
 ## 💡 Project Structure
 
+```
 DogNutrionApp/
 ├── app/
 │ ├── src/
@@ -64,7 +65,7 @@ DogNutrionApp/
 │ └── build.gradle
 └── ...
 
-
+```
 ---
 
 ## 🎯 Learning & Challenges
